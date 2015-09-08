@@ -26,7 +26,7 @@ session_start();
 
 ```php
 <?php
-$provider = new \AdamPaterson\OAuth2\Client\Provider\Resource Guru([
+$provider = new \AdamPaterson\OAuth2\Client\Provider\ResourceGuru([
     'clientId'          => '{resource-guru-client-id}',
     'clientSecret'      => '{resource-guru-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url',
